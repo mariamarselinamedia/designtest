@@ -6,7 +6,7 @@ let isDarkMode = localStorage.getItem('darkMode') === 'true';
 // --- DOM ELEMENTS ---
 const form = document.getElementById('expenseForm');
 const itemNameInput = document.getElementById('itemName');
-const itemAmountInput = document.getElementById('itemAmount');
+const itemAmountInput = document.getElementById('itemAmount'); m
 const itemCategorySelect = document.getElementById('itemCategory');
 const transactionList = document.getElementById('transactionList');
 const totalBalanceDisplay = document.getElementById('totalBalance');
