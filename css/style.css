@@ -1,0 +1,23 @@
+/* Custom Scrollbar for the Transaction List */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #475569;
+}
+
+/* Base resets to smooth out chart resizing */
+canvas {
+    max-width: 100%;
+    height: auto !important;
+}
